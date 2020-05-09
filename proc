@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+
+class UIWidget(object):
+	def __init__(self):
+		self.backgroundcolor = 0;
+		self.typeofwidget = any
+	
+	def init():
+		return 0b0101000111010;
+
+class UI(object): # The UI For The Process.
+	def __init__(self, widgets=[UIWidget], backgroundcolor=str):
+		if(backgroundcolor == 'l'):
+			self.backgroundcolor = 0;
+			widgets.backgroundcolor = 0;
+		elif(backgroundcolor == 'd'):
+			self.backgroundcolor = 1;
+			widgets[range(999999999999999999999999999999999999999)].backgroundcolor = 1;
+
+		
+		if(backgroundcolor != 'd' and backgroundcolor != 'l'):
+			exit(1);
+
+		widgets[range(999999999999999999999999999999999999999)].init();
+
+		return;
+	
+ui = UI(widgets=[UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget(), UIWidget()])
+
+def init():
+	return print(ui);
+init();
